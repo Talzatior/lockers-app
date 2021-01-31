@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NewLockerComponent } from './new-locker.component';
+import { MaleOfficeComponent } from './male-office.component';
 
-describe('NewLockerComponent', () => {
-  let component: NewLockerComponent;
-  let fixture: ComponentFixture<NewLockerComponent>;
+describe('MaleOfficeComponent', () => {
+  let component: MaleOfficeComponent;
+  let fixture: ComponentFixture<MaleOfficeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NewLockerComponent ]
+      declarations: [ MaleOfficeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NewLockerComponent);
+    fixture = TestBed.createComponent(MaleOfficeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
