@@ -1,8 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(219, 219, 219);
+}
 .p-button, .p-button:enabled:hover {
     background-color: #041E42;
     width: 200px;
     border: none;
+    font-weight: 500;
 }
 
 .p-button-label {
@@ -11,4 +17,12 @@
 
 .button-container .p-button, .button-container .p-button:enabled:hover {
     width: 130px;
+}
+
+:host ::ng-deep button {
+    margin-bottom: 1em;
+}
+
+p{
+    font-size: 1.5em;
 }
