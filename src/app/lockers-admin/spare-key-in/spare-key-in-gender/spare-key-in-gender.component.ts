@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-female-mechanic',
-  templateUrl: './female-mechanic.component.html',
-  styleUrls: ['./female-mechanic.component.scss']
+  selector: 'app-spare-key-in-gender',
+  templateUrl: './spare-key-in-gender.component.html',
+  styleUrls: ['./spare-key-in-gender.component.scss']
 })
-export class FemaleMechanicComponent implements OnInit {
+export class SpareKeyInGenderComponent implements OnInit {
 
   checked: boolean = true;
   showSection: boolean = true;

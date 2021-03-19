@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LockerBackComponent } from './locker-back.component';
+import { SpareKeyOutWomanComponent } from './spare-key-out-woman.component';
 
-describe('LockerBackComponent', () => {
-  let component: LockerBackComponent;
-  let fixture: ComponentFixture<LockerBackComponent>;
+describe('SpareKeyOutWomanComponent', () => {
+  let component: SpareKeyOutWomanComponent;
+  let fixture: ComponentFixture<SpareKeyOutWomanComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LockerBackComponent ]
+      declarations: [ SpareKeyOutWomanComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LockerBackComponent);
+    fixture = TestBed.createComponent(SpareKeyOutWomanComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

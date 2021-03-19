@@ -1,0 +1,22 @@
+<p>locker-back-female works!</p>
+<div class="p-d-flex p-ai-center p-flex-column p-mt-1">
+    <h2>Woman locker's spare key request</h2>
+    <p class="title">Insert the locker's number :</p>
+    <span class="p-float-label p-mt-3">
+        <input id="locker-number" type="text" pInputText> 
+        <label for="locker-number">Locker's number</label>
+    </span>
+    <p class="digit p-mb-0">(Number must contain two digits)</p>
+    <p>If there is a second locker, press on the "+" below : </p>
+    <p-toggleButton onIcon="pi pi-plus" offIcon="pi pi-times" (onChange)="handleChangeSection($event)" [(ngModel)]="checked"></p-toggleButton>
+    <div *ngIf="!showSection">
+        <span class="p-float-label p-mt-3">
+            <input id="locker-number" type="text" pInputText> 
+            <label for="locker-number">Locker's number</label>
+        </span>
+    </div>
+    <div class="button-container p-d-flex p-jc-around p-mt-5">
+        <p-button label="Cancel" class="p-mr-3" [routerLink]="['']"></p-button>
+        <p-button label="Ok"></p-button>
+    </div>
+</div>

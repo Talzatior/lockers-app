@@ -19,10 +19,19 @@ body{
     width: 130px;
 }
 
-:host ::ng-deep button {
-    margin-bottom: 1em;
+div.checkbox {
+    margin: 25px 0;
+}
+div.checkbox .p-checkbox .p-checkbox-box {
+    width: 30px;
+    height: 30px;
 }
 
-p{
+div.checkbox .p-checkbox {
+    width: 30px;
+    height: 30px;
+}
+div.checkbox label {
+    padding-left: 15px;
     font-size: 1.5em;
 }

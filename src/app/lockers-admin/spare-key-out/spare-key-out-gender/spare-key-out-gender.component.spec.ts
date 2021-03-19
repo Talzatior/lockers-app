@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SpareKeyInComponent } from './spare-key-in.component';
+import { SpareKeyOutGenderComponent } from './spare-key-out-gender.component';
 
-describe('SpareKeyInComponent', () => {
-  let component: SpareKeyInComponent;
-  let fixture: ComponentFixture<SpareKeyInComponent>;
+describe('SpareKeyOutGenderComponent', () => {
+  let component: SpareKeyOutGenderComponent;
+  let fixture: ComponentFixture<SpareKeyOutGenderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SpareKeyInComponent ]
+      declarations: [ SpareKeyOutGenderComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SpareKeyInComponent);
+    fixture = TestBed.createComponent(SpareKeyOutGenderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
